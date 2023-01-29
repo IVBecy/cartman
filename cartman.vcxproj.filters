@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="headers\MemMan.h" />
+    <ClInclude Include="imgui\imconfig.h" />
+    <ClInclude Include="imgui\imgui.h" />
+    <ClInclude Include="imgui\imgui_impl_dx9.h" />
+    <ClInclude Include="imgui\imgui_impl_win32.h" />
+    <ClInclude Include="imgui\imgui_internal.h" />
+    <ClInclude Include="imgui\imstb_rectpack.h" />
+    <ClInclude Include="imgui\imstb_textedit.h" />
+    <ClInclude Include="imgui\imstb_truetype.h" />
+    <ClInclude Include="headers\vectors.h" />
+    <ClInclude Include="headers\vars.h" />
+    <ClInclude Include="headers\cheatFunctions.h" />
+    <ClInclude Include="headers\csgo.h" />
+    <ClInclude Include="src\gui\gui.h" />
+    <ClInclude Include="headers\imgui_impl_dx11.h" />
+    <ClInclude Include="src\gui\guiConfig.h" />
+    <ClInclude Include="src\config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui\imgui.cpp" />
+    <ClCompile Include="imgui\imgui_demo.cpp" />
+    <ClCompile Include="imgui\imgui_draw.cpp" />
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="imgui\imgui_tables.cpp" />
+    <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="src\cartman.cpp" />
+    <ClCompile Include="src\gui\gui.cpp" />
+    <ClCompile Include="headers\cheatFunctions.cpp" />
+    <ClCompile Include="src\gui\guiConfig.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="assets\fa-regular-400.ttf" />
+    <Font Include="assets\fa-solid-900.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include=".gitignore" />
+  </ItemGroup>
+</Project>
